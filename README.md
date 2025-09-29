@@ -1,6 +1,6 @@
 # Personal Portfolio
 
-A modern personal portfolio website built with **React**, **TypeScript**, and **Ant Design**, featuring smooth animations with **Framer Motion** and interactive effects with **tsparticles**.  
+A personal portfolio website built with **React**, **TypeScript**, and **Ant Design**, featuring animations with **Framer Motion** and interactive effects with **tsparticles**.
 
 This site showcases my projects, CV, and technical skills as a frontend developer.
 
@@ -12,7 +12,7 @@ This site showcases my projects, CV, and technical skills as a frontend develope
 - Projects page displaying screenshots, descriptions, tags, and links to GitHub/demo  
 - Modern UI with Ant Design and theme customization (light/dark)  
 - Page transitions and hover animations using Framer Motion  
-- Interactive particle background with tsparticles  
+- Interactive particle background with tsparticles
 
 ---
 
@@ -59,7 +59,7 @@ personal-portfolio/
 ### Installation
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/personal-portfolio.git
+git clone https://github.com/regis22-kda/personal-portfolio
 
 # Navigate into the project
 cd personal-portfolio
@@ -69,7 +69,6 @@ npm install
 
 Run the project
 npm start
-
 
 The app will be available at http://localhost:3000
 
