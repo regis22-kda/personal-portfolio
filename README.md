@@ -4,7 +4,6 @@ A personal portfolio website built with **React**, **TypeScript**, and **Ant Des
 
 This site showcases my projects, CV, and technical skills as a frontend developer.
 
----
 
 ## Features
 - Home page with hero section, animated background, and quick navigation  
@@ -14,9 +13,9 @@ This site showcases my projects, CV, and technical skills as a frontend develope
 - Page transitions and hover animations using Framer Motion  
 - Interactive particle background with tsparticles
 
----
 
 ## Folder Structure
+```bash
 personal-portfolio/
 ├── src/
 │ ├── components/
@@ -36,9 +35,7 @@ personal-portfolio/
 │ └── index.html
 ├── package.json
 └── README.md
-
-
----
+```
 
 ## Tech Stack
 - React 18 + TypeScript  
@@ -47,8 +44,6 @@ personal-portfolio/
 - Framer Motion (animations)  
 - tsparticles-slim (particle effects)  
 - Jest + React Testing Library (unit tests)  
-
----
 
 ## Getting Started
 
