@@ -1,46 +1,77 @@
-# Getting Started with Create React App
+# Personal Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern personal portfolio website built with **React**, **TypeScript**, and **Ant Design**, featuring smooth animations with **Framer Motion** and interactive effects with **tsparticles**.  
 
-## Available Scripts
+This site showcases my projects, CV, and technical skills as a frontend developer.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## Features
+- Home page with hero section, animated background, and quick navigation  
+- CV page with education, experience, and skills in a resume-like layout  
+- Projects page displaying screenshots, descriptions, tags, and links to GitHub/demo  
+- Modern UI with Ant Design and theme customization (light/dark)  
+- Page transitions and hover animations using Framer Motion  
+- Interactive particle background with tsparticles  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Folder Structure
+personal-portfolio/
+├── src/
+│ ├── components/
+│ │ ├── Hero.tsx
+│ │ └── shared/
+│ │ ├── PageTransition.tsx
+│ │ ├── SectionTitle.tsx
+│ │ ├── TagList.tsx
+│ │ └── CardItem.tsx
+│ ├── pages/
+│ │ ├── Home.tsx
+│ │ ├── Projects.tsx
+│ │ └── CV.tsx
+│ ├── App.tsx
+│ └── index.tsx
+├── public/
+│ └── index.html
+├── package.json
+└── README.md
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## Tech Stack
+- React 18 + TypeScript  
+- Ant Design 5  
+- React Router DOM 6  
+- Framer Motion (animations)  
+- tsparticles-slim (particle effects)  
+- Jest + React Testing Library (unit tests)  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Getting Started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Prerequisites
+- Node.js (>=16)  
+- npm or yarn  
 
-### `npm run eject`
+### Installation
+```bash
+# Clone the repository
+git clone https://github.com/your-username/personal-portfolio.git
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# Navigate into the project
+cd personal-portfolio
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Install dependencies
+npm install
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Run the project
+npm start
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+The app will be available at http://localhost:3000
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Running Tests
+npm test
